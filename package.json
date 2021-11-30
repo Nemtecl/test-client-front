@@ -6,7 +6,9 @@
     "start": "BROWSERSLIST_DANGEROUS_EXTEND=1 react-scripts start",
     "build": "BROWSERSLIST_DANGEROUS_EXTEND=1 react-scripts build",
     "lint": "eslint \"src/**\"",
-    "build:types": "npx apollo codegen:generate --localSchemaFile=src/api/schema.graphql --target=typescript --globalTypesFile=src/globalTypes/index.ts --includes=src/**/*.ts --tagName=gql --addTypename types"
+    "build:types": "npx apollo codegen:generate --localSchemaFile=src/api/schema.graphql --target=typescript --globalTypesFile=src/globalTypes/index.ts --includes=src/**/*.ts --tagName=gql --addTypename types",
+    "cypress.open": "yarn run cypress open",
+    "cypress.run": "yarn run cypress run"
   },
   "husky": {
     "hooks": {
@@ -22,10 +24,13 @@
     "@apollo/client": "^3.3.11",
     "@graphql-tools/schema": "^7.1.3",
     "@habx/ui-core": "^5.22.0",
+    "cypress": "^9.1.0",
+    "eslint-plugin-cypress": "^2.12.1",
     "final-form": "^4.20.2",
     "graphql": "^15.5.0",
     "graphql-tag": "^2.11.0",
     "graphql.macro": "^1.4.2",
+    "prettier": "^2.4.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-final-form": "^6.5.2",

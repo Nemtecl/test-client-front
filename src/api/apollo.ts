@@ -1,6 +1,6 @@
 /*
-    apollo configuration
-    DO NOT EDIT
+ *apollo configuration
+ *DO NOT EDIT
  */
 import { ApolloClient, InMemoryCache } from '@apollo/client'
 import { SchemaLink } from '@apollo/client/link/schema'

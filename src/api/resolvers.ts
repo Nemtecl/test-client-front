@@ -1,6 +1,6 @@
 /*
-    GraphqQL resolvers
-    DO NOT EDIT
+ *GraphqQL resolvers
+ *DO NOT EDIT
  */
 
 import { notify } from '@habx/ui-core'
